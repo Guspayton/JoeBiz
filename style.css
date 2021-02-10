@@ -245,11 +245,64 @@ div.iconWrapper, div.blurb-wrapper {
 .submit-btn-wrapper {
   justify-content: center;
 }
+.portfolio-wrapper {
+  justify-content: center;
 }
 
 
-@media (max-width:599px) {
-  .portfolio-wrapper {
-    justify-content: center;
-  }
+
+}
+@media (max-width: 360px) {
+
+ul.topnav li a.navLink {
+  display: none;
+}
+.drop-down-icon {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+ul.topnav.responsive li.drop-down-icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+ul.topnav.responsive {
+  flex-direction: column;
+  text-align: right;
+}
+ul.topnav.responsive li {
+  position: relative;
+  top:30px;
+  right: 30px;
+}
+ul.topnav.responsive li a.navLink {
+  display: block;
+  line-height: 2;
+}
+div.iconWrapper, div.blurb-wrapper {
+  width: 100%;
+  margin: auto;
+}
+.media-object {
+  display: block;
+  margin: 0 auto;
+}
+.blurb-header {
+  text-align: center;
+}
+.portfolio-wrapper {
+  text-align: justify;
+  justify-content: space-around;
+}
+.form-group {
+  display: flex;
+}
+.submit-btn-wrapper {
+  justify-content: center;
+}
+.portfolio-wrapper {
+  justify-content: center;
+}
 }
